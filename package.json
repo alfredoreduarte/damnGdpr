@@ -1,6 +1,6 @@
 {
 	"name": "damngdpr",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Multi-language alerts for compliance with GDPR",
 	"main": "./src/damnGdpr.js",
 	"style": [
