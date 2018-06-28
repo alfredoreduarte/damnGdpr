@@ -1,14 +1,12 @@
 {
 	"name": "damngdpr",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Multi-language alerts for compliance with GDPR",
 	"main": "./src/damnGdpr.js",
 	"style": [
 		"./src/damnGdpr.css"
 	],
-	"scripts": {
-		
-	},
+	"scripts": {},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/alfredoreduarte/damnGdpr.git"
