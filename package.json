@@ -1,0 +1,28 @@
+{
+	"name": "damngdpr",
+	"version": "1.0.0",
+	"description": "Multi-language alerts for compliance with GDPR",
+	"main": "./src/damnGdpr.js",
+	"style": [
+		"./src/damnGdpr.css"
+	],
+	"scripts": {
+		
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alfredoreduarte/damnGdpr.git"
+	},
+	"keywords": [
+		"jquery-plugin",
+		"jquery",
+		"gdpr",
+		"cookies"
+	],
+	"author": "Alfredo Re",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/alfredoreduarte/damnGdpr/issues"
+	},
+	"homepage": "https://github.com/alfredoreduarte/damnGdpr#readme"
+}

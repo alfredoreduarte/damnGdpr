@@ -1,0 +1,104 @@
+._gdPlugin-trigger-inactive, ._gdPlugin-trigger-secondary, ._gdPlugin-main {
+	display: none;
+}
+
+._gdPlugin-trigger-inactive, ._gdPlugin-trigger-secondary{
+	position: fixed;
+	font: 13px/20px Arial;
+	color: #666;
+	cursor: pointer;
+	z-index: 999;
+	background: #F1F1EF;
+	padding: 6px 11px 2px;
+	box-shadow: rgba(0, 0, 0, .5) 0px 0px 3px;
+	left: 10px;
+	bottom: 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+._gdPlugin-main {
+	bottom: 2%;
+	left: 5%;
+	background-color: rgb(17, 17, 17);
+	z-index: 999999;
+	opacity: 0.9;
+	position: fixed;
+	padding: 15px;
+	width: 90%;
+	font-size: 13px;
+	font-weight: normal;
+	text-align: left;
+	color: rgb(255, 255, 255);
+	font-family: Arial, sans-serif;
+	line-height: 20px;
+	letter-spacing: normal;
+	box-shadow: rgb(0, 0, 0) 0px 0px 8px;
+	border-radius: 5px;
+	display: none;
+}
+@media (min-width: 768px) {
+	._gdPlugin-main {
+		bottom: 20px;
+		left: 20px;
+		width: 300px;
+	}
+}
+
+._gdPlugin-main-header {
+	background-color: rgb(17, 17, 17);
+	z-index: 999999;
+	padding: 0px 0px 7px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-family: Arial, sans-serif;
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+._gdPlugin-main-accept {
+	border-radius: 5px;
+	border: 0px;
+	padding: 7px 13px;
+	font-weight: bold;
+	cursor: pointer;
+	margin: 10px 0px 5px;
+	transition: 0.25s;
+	text-shadow: rgb(0, 0, 0) 0px 0px 2px;
+	background-color: rgb(91, 183, 91);
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	font-size: 16px;
+}
+
+._gdPlugin-main-reject {
+	border-radius: 5px;
+	border: 0px;
+	padding: 3px 10px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.25s;
+	text-shadow: rgb(0, 0, 0) 0px 0px 2px;
+	background-color: black;
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	float: right;
+	font-size: 12px;
+}
+
+._gdPlugin-main-readmore-container {
+	margin-top: 10px;
+}
+
+._gdPlugin-main-readmore:hover, 
+._gdPlugin-main-readmore:active,
+._gdPlugin-main-readmore:focus,
+._gdPlugin-main-readmore {
+	cursor: pointer;
+	margin-top: 5px;
+	display: inline-block;
+	text-decoration: underline;
+	color: rgb(255, 255, 255);
+}
