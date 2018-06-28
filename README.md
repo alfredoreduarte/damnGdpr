@@ -12,11 +12,18 @@ If Decline is clicked, all of the listed cookies are re-saved without an expirat
 
 ## Usage 
 
-Include the plugin and its dependencies
+Include the dependencies
 
 ```
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+```
+
+Include the plugin
+
+```
+<script src="https://cdn.jsdelivr.net/npm/damngdpr/src/damnGdpr.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/damngdpr/src/damnGdpr.min.css">
 ```
 
 Initialize
