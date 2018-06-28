@@ -114,7 +114,7 @@
 					if (damnGdprAccepted === 'true') {
 						if($(window).scrollTop() + $(window).height() > $(document).height() - 100) {
 							if (!scrolledToBottom) {
-								$('._gdPlugin-trigger-secondary').slideDown()
+								$('._gdPlugin-trigger-secondary').show()
 								scrolledToBottom = true
 							}
 						}
@@ -122,16 +122,16 @@
 				})
 
 				if (!damnGdprAccepted) {
-					$('._gdPlugin-trigger-inactive').slideDown()
+					$('._gdPlugin-trigger-inactive').show()
 				}
 
 				// 
 				// UI Triggers
 				// 
 				$('._gdPlugin-trigger-inactive, ._gdPlugin-trigger-secondary').click(function(){
-					$('._gdPlugin-main').slideDown()
-					$('._gdPlugin-trigger-inactive').slideUp()
-					$('._gdPlugin-trigger-secondary').slideUp()
+					$('._gdPlugin-main').show()
+					$('._gdPlugin-trigger-inactive').hide()
+					$('._gdPlugin-trigger-secondary').hide()
 				})
 
 				// 
@@ -147,9 +147,9 @@
 					Cookies.set('damnGdprAccepted', 'true', { expires: 365 });
 					damnGdprAccepted = 'true' // controls scroll behavior
 					scrolledToBottom = false
-					$('._gdPlugin-main').slideUp()
-					$('._gdPlugin-trigger-inactive').slideUp()
-					$('._gdPlugin-trigger-secondary').slideUp()
+					$('._gdPlugin-main').hide()
+					$('._gdPlugin-trigger-inactive').hide()
+					$('._gdPlugin-trigger-secondary').hide()
 				})
 
 				// 
@@ -163,9 +163,9 @@
 					Cookies.remove('damnGdprAccepted')
 					damnGdprAccepted = 'false' // controls scroll behavior
 					scrolledToBottom = false
-					$('._gdPlugin-main').slideUp()
-					$('._gdPlugin-trigger-inactive').slideDown()
-					$('._gdPlugin-trigger-secondary').slideUp()
+					$('._gdPlugin-main').hide()
+					$('._gdPlugin-trigger-inactive').show()
+					$('._gdPlugin-trigger-secondary').hide()
 				})
 			}
 		} );
